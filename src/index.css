@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-custom:hover {
+  box-shadow: 3px 3px 40px rgb(23, 22, 22);
+}
+.animation-custom:hover {
+  scale: 1.06;
+  transition: scale 0.5s ease-in 0s;
+}
+.min-h-custom {
+  min-height: calc(100vh - 245px);
+}
