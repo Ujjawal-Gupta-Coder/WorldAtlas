@@ -115,4 +115,4 @@ We welcome contributions! If you'd like to improve this project, please follow t
 
 - **🧑‍💻 GitHub Profile :** [ https://github.com/Ujjawal-Gupta-Coder ](https://github.com/Ujjawal-Gupta-Coder)
 
-- **📁 Project Repository :** [https://github.com/Ujjawal-Gupta-Coder/My_Calculator](https://github.com/Ujjawal-Gupta-Coder/WorldAtlas)
+- **📁 Project Repository :** [https://github.com/Ujjawal-Gupta-Coder/WorldAtlas](https://github.com/Ujjawal-Gupta-Coder/WorldAtlas)
