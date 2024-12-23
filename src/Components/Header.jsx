@@ -30,10 +30,12 @@ const Header = () => {
             Know About The World Countries!!
           </h2>
         </div>
+
         <button
           className="flex items-center justify-center gap-1 sm:gap-3"
           onClick={handleToggleTheme}
         >
+          
           <div
             className={
               dark

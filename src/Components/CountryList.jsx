@@ -18,7 +18,7 @@ const CountryList = ({searchCountry, contenentFilter, countryData }) => {
   
   if(searchCountry.length !== 0) {
     filteredCounrtyData = filteredCounrtyData.filter((data) => {
-      return data.name.common.toLowerCase().includes(searchCountry.toLowerCase())
+      return data.name.common.toLowerCase().includes(searchCountry.toLowerCase().trim())
   })
   }
 

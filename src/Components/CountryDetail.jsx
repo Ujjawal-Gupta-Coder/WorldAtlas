@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Header from "./Header";
 import gif from "../assets/NotFoundGif.gif";
 import Footer from "./Footer";
@@ -12,7 +12,7 @@ const CountryDetail = () => {
   const [countryData, setCountryData] = useState();
   let [isValidCountry, setValidCountry] = useState(true);
   const [borderContries, setBorderContries] = useState([]);
-
+  const navigate = useNavigate();
   const { dark } = useContext(ThemeContext);
 
   const fetchData = async () => {
@@ -49,7 +49,9 @@ const CountryDetail = () => {
   const handleBackButton = () => {
     window.history.back();
   };
-
+  const handleHomeClick = () => {
+    navigate('/');
+  };
   return (
     <div
       className={
@@ -59,28 +61,30 @@ const CountryDetail = () => {
       }
     >
       <Header />
+
       <button
         onClick={handleBackButton}
         className={
           dark
-            ? "mt-5 mx-4 font-bold text-xl bg-slate-500/50 px-2 rounded-lg border-2 border-white hover:bg-slate-700"
-            : "mt-5 mx-4 font-bold text-xl bg-gray-300 px-2 rounded-lg border-2 border-black  hover:bg-gray-100"
+            ? "mt-5 mx-2 font-bold text-sm bg-slate-500/50 px-2 rounded-lg border-2 border-white hover:bg-slate-700"
+            : "mt-5 mx-2 font-bold text-sm bg-gray-300 px-2 rounded-lg border-2 border-black  hover:bg-gray-100"
         }
       >
         {" "}
         <i className="fa-solid fa-arrow-left"></i> Back
       </button>
-      <Link
-        to="/"
+
+      <button
+        onClick={handleHomeClick}
         className={
           dark
-            ? "mt-5 mx-4 font-bold text-xl bg-slate-500/50 px-2 rounded-lg border-2 border-white hover:bg-slate-700"
-            : "mt-5 mx-4 font-bold text-xl bg-gray-300 px-2 rounded-lg border-2 border-black  hover:bg-gray-100"
+            ? "mt-5 mx-1 font-bold text-sm bg-slate-500/50 px-2  rounded-lg border-2 border-white hover:bg-slate-700"
+            : "mt-5 mx-1 font-bold text-sm bg-gray-300 px-2  rounded-lg border-2 border-black  hover:bg-gray-100"
         }
       >
         {" "}
         <i className="fa-solid fa-house"></i> Home
-      </Link>
+      </button>
       <div
         className={
           !isValidCountry

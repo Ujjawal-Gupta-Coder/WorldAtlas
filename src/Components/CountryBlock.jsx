@@ -5,13 +5,13 @@ const CountryBlock = ({ countryData, borderContries }) => {
   const { dark } = useContext(ThemeContext);
 
   return (
-    <div className="flex flex-col lg:flex-row px-4 py-4 gap-x-12 md:gap-y-6 justify-center items-center lg:h-[600px] w-[90%]">
+    <div className="flex flex-col lg:flex-row px-4 py-4 gap-x-12 md:gap-y-8 justify-center items-center lg:h-[600px] w-[90%]">
       <img
         src={countryData.flags.svg}
         alt={countryData.flags.alt}
         className="md-w rounded-lg w-full h-fit max-h-[550px]  max-w-[600px]"
       />
-      <div className="flex flex-col gap-6 justify-center items-center">
+      <div className="flex flex-col gap-4 justify-center items-center mt-2">
         <h2 className="text-4xl md:text-7xl font-bold text-center">
           {countryData.name.common}
         </h2>
