@@ -1,8 +1,13 @@
 <div align="center">
-    <img src="./screenshots/Screenshot 1.png" width="1200" alt="Project Cover Image">
-
-# World Atlas
+    <a href="https://world-atlas-nine.vercel.app" target="_blank">
+          <img src="./screenshots/Screenshot 1.png" width="1200" alt="Project Cover Image">
+    </a>
+    
+# [World Atlas](https://world-atlas-nine.vercel.app)
 </div>
+
+🌟 Experience the full functionality of this project by exploring the [Live Demo](https://world-atlas-nine.vercel.app). Click the link to see it in action and enjoy!
+
 The World Atlas Application is a user-friendly platform that provides detailed information about countries worldwide. With features like dark/light mode, searchable and filterable data, clickable country cards, and Google Maps links to the respected country, it ensures a seamless and interactive exploration experience. Fully responsive and equipped with advanced functionalities like border country navigation and shimmer loading effects, this app is perfect for anyone seeking reliable and organized country-specific details.
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -25,7 +30,7 @@ The Country Information Application is a dynamic platform designed to provide us
 
 What sets this application apart is its advanced features like clickable country cards with hover animation, integration with Google Maps for location viewing, and seamless navigation between border countries. A "country not found" page ensures user-friendly feedback, while a shimmer loading effect enhances the visual appeal during data loading. The app is fully responsive, providing an optimized experience across all devices, from desktops to smartphones. Whether you're a researcher, student, traveler, or curious explorer, this application is a one-stop solution for accessing comprehensive country information effortlessly.
 
-## <a name="techstack">💻 Tech Stack</a>
+## <a name="TechStack">💻 Tech Stack</a>
 
 This website is built using the following technologies:
 
@@ -38,7 +43,7 @@ This website is built using the following technologies:
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![API](https://img.shields.io/badge/API-005571?style=for-the-badge&logo=api&logoColor=white)
 
-## <a name="features">🌟 Features</a>
+## <a name="Features">🌟 Features</a>
 
 🔥 **Dark Mode and Light Mode**:  
 Switch between dark and light themes for a comfortable browsing experience, no matter the time of day.
