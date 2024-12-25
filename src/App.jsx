@@ -6,6 +6,8 @@ import CountryList from "./Components/CountryList";
 import Loading from "./Components/LoadingCountryList.jsx";
 import Footer from "./Components/Footer";
 import { ThemeContext } from "./contexts/themeContext.jsx";
+import { Analytics } from "@vercel/analytics/react"
+
 export default function App() {
   const [contenentFilter, setContenentFilter] = useState("NA");
   const [searchCountry, setsearchCountry] = useState("");
