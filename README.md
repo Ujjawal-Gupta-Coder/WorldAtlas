@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://world-atlas-nine.vercel.app" target="_blank">
-          <img src="./screenshots/Screenshot 1.png" width="1200" alt="Project Cover Image">
+          <img src="./public/screenshots/Screenshot 1.png" width="1200" alt="Project Cover Image">
     </a>
     
 # [World Atlas](https://world-atlas-nine.vercel.app)
@@ -80,13 +80,13 @@ The application is fully responsive, ensuring an optimized experience across dev
 
 ## <a name="Screenshots">🖼️ Screenshots</a>
 
-<img src="./screenshots/Screenshot 1.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 1"> 
-<img src="./screenshots/Screenshot 2.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 2"> 
-<img src="./screenshots/Screenshot 3.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 3"> 
-<img src="./screenshots/Screenshot 4.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 4"> 
-<img src="./screenshots/Screenshot 5.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 5"> 
-<img src="./screenshots/Screenshot 6.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 6"> 
-<img src="./screenshots/Screenshot 7.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 7">  
+<img src="./public/screenshots/Screenshot 1.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 1"> 
+<img src="./public/screenshots/Screenshot 2.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 2"> 
+<img src="./public/screenshots/Screenshot 3.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 3"> 
+<img src="./public/screenshots/Screenshot 4.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 4"> 
+<img src="./public/screenshots/Screenshot 5.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 5"> 
+<img src="./public/screenshots/Screenshot 6.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 6"> 
+<img src="./public/screenshots/Screenshot 7.png" width="500" style="margin-bottom: 10px; margin-right: 10px; border-radius: 10px;" alt="Screenshot - 7">  
 
 
 ## <a name="Contributing"> 🤝 Contributing</a>

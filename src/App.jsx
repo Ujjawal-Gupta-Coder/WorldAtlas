@@ -1,12 +1,13 @@
 import React, { useContext, useEffect, useState } from "react";
-import Header from "./Components/Header";
-import Search from "./Components/Search";
-import Filter from "./Components/Filter";
-import CountryList from "./Components/CountryList";
+import Header from "./Components/Header.jsx";
+import Search from "./Components/Search.jsx";
+import Filter from "./Components/Filter.jsx";
+import CountryList from "./Components/CountryList.jsx";
 import Loading from "./Components/LoadingCountryList.jsx";
-import Footer from "./Components/Footer";
+import Footer from "./Components/Footer.jsx";
 import { ThemeContext } from "./contexts/themeContext.jsx";
-import { Analytics } from "@vercel/analytics/react"
+const URL = import.meta.env.VITE_BASE_URL; 
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const [contenentFilter, setContenentFilter] = useState("NA");
@@ -16,7 +17,7 @@ export default function App() {
   const [countryData, setCountryData] = useState();
   const fetchData = async () => {
     try {
-      const raw = await fetch("https://restcountries.com/v3.1/all");
+      const raw = await fetch(URL);
       const response = await raw.json();
       setCountryData(response);
     } catch (err) {

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import logoImg from "../assets/EarthLogoImg.gif";
+import logoImg from "../assets/images/EarthLogoImg.gif";
 import { ThemeContext } from "../contexts/themeContext";
 const Header = () => {
   const { dark, setDark } = useContext(ThemeContext);

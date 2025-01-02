@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import CountryCard from './CountryCard'
 import { ThemeContext } from '../contexts/themeContext';
-import gif from '../assets/NotFoundGif.gif'
+import gif from '../assets/images/NotFoundGif.gif'
 
 const CountryList = ({searchCountry, contenentFilter, countryData }) => {
   const {dark} = useContext(ThemeContext);

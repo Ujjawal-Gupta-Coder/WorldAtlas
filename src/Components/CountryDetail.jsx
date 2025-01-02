@@ -1,12 +1,15 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import gif from "../assets/images/NotFoundGif.gif";
 import Header from "./Header";
-import gif from "../assets/NotFoundGif.gif";
 import Footer from "./Footer";
 import { useParams } from "react-router-dom";
 import CountryBlock from "./CountryBlock";
 import Loading from "./LoadingCountryBlock";
 import { ThemeContext } from "../contexts/themeContext";
+const BORDER_URL = import.meta.env.VITE_BORDER_URL; 
+const COUNTRY_URL = import.meta.env.VITE_COUNTRY_API; 
+
 const CountryDetail = () => {
   const { country } = useParams();
   const [countryData, setCountryData] = useState();
@@ -18,7 +21,7 @@ const CountryDetail = () => {
   const fetchData = async () => {
     try {
       const raw = await fetch(
-        `https://restcountries.com/v3.1/name/${country}?fullText=true`
+        COUNTRY_URL + country + '?fullText=true'
       );
       const response = await raw.json();
       setCountryData(response[0]);
@@ -27,7 +30,7 @@ const CountryDetail = () => {
         const data = await Promise.all(
           response[0].borders.map(async (border) => {
             const raw = await fetch(
-              `https://restcountries.com/v3.1/alpha/${border}`
+              BORDER_URL + border
             );
             const response = await raw.json();
             return response[0].name.common;
