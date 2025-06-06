@@ -6,7 +6,6 @@ import CountryList from "./Components/CountryList.jsx";
 import Loading from "./Components/LoadingCountryList.jsx";
 import Footer from "./Components/Footer.jsx";
 import { ThemeContext } from "./contexts/themeContext.jsx";
-const URL = import.meta.env.VITE_BASE_URL; 
 import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
@@ -17,7 +16,7 @@ export default function App() {
   const [countryData, setCountryData] = useState();
   const fetchData = async () => {
     try {
-      const raw = await fetch(URL);
+      const raw = await fetch("/CountriesData.json");
       const response = await raw.json();
       setCountryData(response);
     } catch (err) {
