@@ -6,7 +6,7 @@
 # [World Atlas](https://world-atlas-nine.vercel.app)
 </div>
 
-🌟 Experience the full functionality of this project by exploring the [Live Demo](https://world-atlas-nine.vercel.app). Click the link to see it in action and enjoy! 🎥 You can also watch the detailed Video Demo on [YouTube](https://youtu.be/UB_IZiclm9o?si=KEGzFy0KKw9B4cNN) for a visual walkthrough.
+🌟 Experience the full functionality of this project by exploring the [Live Demo](https://world-atlas-nine.vercel.app). Click the link to see it in action and enjoy! 🎥 You can also watch the detailed Video Demo on [YouTube](https://youtu.be/ScEMPGsTI4I?si=CW8QwQspASpn7NRE) for a visual walkthrough.
 
 The World Atlas Application is a user-friendly platform that provides detailed information about countries worldwide. With features like dark/light mode, searchable and filterable data, clickable country cards, and Google Maps links to the respected country, it ensures a seamless and interactive exploration experience. Fully responsive and equipped with advanced functionalities like border country navigation and shimmer loading effects, this app is perfect for anyone seeking reliable and organized country-specific details.
 
